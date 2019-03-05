@@ -1,0 +1,32 @@
+git es un sistema de control de desarrollo
+
+tiene 3 estados
+
+1:  git init (empezar espacio )
+
+2:  git status (vemos el estado en que encuentra el archivo)
+
+3:   git add "archivo" "." ("." permite agregar todos los archivo)
+
+$: git log (nos permite visualizar todos los cambios guardados )
+
+
+para realizar un commit, se necesita clocar el creador y su email del programador 
+
+ |||  git config --global user.email "you@example.com"
+ |||  git config --global user.name "Your Name"
+
+
+$: git commit (agregamos la modificaion)
+$: git commit --m "mensaje"(agregamos la modificaion saltandonos la consola)
+
+
+4: git checkout -- <archivo> (permita deshacer el ultimo cambio no guardado)
+
+5: git diff <archivo> (permite visualizar el cambiuo realiazado"codigo")
+
+6: en el proyecto se puede crear un archivo (.gitignore) dentro de este
+archivo colocamos el documento a ignorar , se debe guardar el (.gitignore)
+
+7: git brachn "nombre de rama"(permite hacer una version alternativa)
+$/ git checkout "nombre de rama" (para entrar y manejar la rama alternativa )
